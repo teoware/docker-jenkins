@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  teoware_jenkins:
+    build: .
+    image: teoware/jenkins:latest
+    container_name: teoware_jenkins
